@@ -75,7 +75,7 @@ async def mines(ctx, round_id):
         pfp = 'https://cdn.discordapp.com/emojis/814359530019356734.webp?size=60&quality=lossless'
         em = discord.Embed(color=0x11F1D3)
         em.set_thumbnail(url=pfp)
-        em.set_footer(text="Made by Ghost")
+        em.set_footer(text="Made by LOVi")
         em.add_field(name="Mines predictor",value=row1 + "\n" + row2 + "\n" + row3 + "\n" + row4 +"\n" + row5 + "\n" + "**Accuracy**" + "\n" + info +"%")
         await ctx.reply(embed=em)
 
